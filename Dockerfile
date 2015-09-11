@@ -1,9 +1,9 @@
-FROM x110dc/base
-MAINTAINER Daniel Craigmile
+FROM easksd/java7
+MAINTAINER Josh Shaloo
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update
-RUN apt-get install -yq openssh-client openjdk-7-jre
+RUN apt-get install -yq openssh-client
 
 # Add the install commands
 ADD ./install.sh /
