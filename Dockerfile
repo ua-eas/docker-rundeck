@@ -1,4 +1,4 @@
-FROM easksd/java7
+FROM x110dc/base
 MAINTAINER Josh Shaloo
 ENV DEBIAN_FRONTEND noninteractive
 
